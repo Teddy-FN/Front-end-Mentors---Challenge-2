@@ -1,0 +1,25 @@
+@media (max-width: 500px) {
+    .container_box {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .sedans {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+    .luxury {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: var(--background_colors_luxury);
+    }
+    
+    .text-desc {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+}
